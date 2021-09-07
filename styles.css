@@ -1,21 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
+
 body{
-    color:red;
+    font-family: 'Ubuntu',sans-serif;
 }
+/* container */
 
-h1{
-    color:blue;
-}
-h2{
-    color:green;
+ .container{
+     padding-left:1rem;
+     padding-right: 1rem;
+ }
 
-}
-
-h3{
-    color:pink;
-}
-#lib-header{
-    color:grey;
-}
-.para{
-    color:lightseagreen;
-}
+ .container-center{
+     max-width: 600px;
+     margin:auto;
+ }
+ 
